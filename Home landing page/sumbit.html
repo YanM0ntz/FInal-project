@@ -1,0 +1,112 @@
+a<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit — Snowboarding Adventures</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+
+    <header class="header">
+        <nav class="navbar container">
+            <div class="logo">
+                <img src="images/Unknown.png" class="logo-image" alt="Logo">
+                Riders Edge
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="trails.html">Trails</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a class="active" href="submit.html">Submit</a></li>
+            </ul>
+        </nav>
+    </header>
+
+ 
+    <section class="intro-section" style="margin-top: 120px;">
+        <div class="container">
+            <h2>Submit Your Feedback</h2>
+            <div class="intro-text">
+                <p>We value your experience! Fill out the form below to send us your thoughts, questions, or suggestions about our snowboarding services.</p>
+            </div>
+
+            <form class="feedback-form" action="#" method="POST" style="
+                background: var(--white);
+                padding: 30px;
+                border-radius: 15px;
+                box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+                max-width: 700px;
+                margin: 0 auto;
+            ">
+                <label style="font-weight: 600;">Full Name</label>
+                <input type="text" name="name" required style="
+                    width: 100%;
+                    padding: 12px;
+                    border-radius: 8px;
+                    border: 1px solid var(--border-color);
+                    margin-bottom: 20px;
+                ">
+
+                <label style="font-weight: 600;">Email Address</label>
+                <input type="email" name="email" required style="
+                    width: 100%;
+                    padding: 12px;
+                    border-radius: 8px;
+                    border: 1px solid var(--border-color);
+                    margin-bottom: 20px;
+                ">
+
+                <label style="font-weight: 600;">Message</label>
+                <textarea name="message" rows="6" required style="
+                    width: 100%;
+                    padding: 12px;
+                    border-radius: 8px;
+                    border: 1px solid var(--border-color);
+                    margin-bottom: 25px;
+                    resize: none;
+                "></textarea>
+
+                <button type="submit" class="cta-button large" style="border-radius: 50px;">
+                    Submit Form
+                </button>
+            </form>
+
+        </div>
+    </section>
+
+ 
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <h4>About Us</h4>
+                <p>Your #1 place for snowboarding adventures, gear tips, and mountain guides.</p>
+            </div>
+
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="trails.html">Popular Trails</a></li>
+                    <li><a href="submit.html">Submit Feedback</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Follow Us</h4>
+                <div class="social-links">
+                    <a href="#">📘</a>
+                    <a href="#">📸</a>
+                    <a href="#">🐦</a>
+                </div>
+            </div>
+        </div>
+
+        <p class="copyright">© 2025 SnowboardCo. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
